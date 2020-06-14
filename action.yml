@@ -1,0 +1,6 @@
+name: "GitHub Action SSH Push"
+description: "Push GitHub repo to remove server via SSH"
+author: browna2
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
